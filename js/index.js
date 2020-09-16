@@ -17,7 +17,7 @@ function renderTeams() {
 
 renderTeams();
 
-search.onkeyup = function () {
+search.onkeyup = function (event) {
     // console.log(event);
 
     const searchValue = event.target.value.trim().toLowerCase();
